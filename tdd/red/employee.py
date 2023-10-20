@@ -21,10 +21,4 @@ class Employee:
     contracts_landed: int = 0
 
     def compute_payout(self) -> float:
-        """Compute how much the employee should be paid."""
-        # employer_cost = self.employer_office_costs +self.employer_401k_costs + self.employer_support_costs
-        # payout = self.pay_rate * self.hours_worked + employer_cost
-        # if self.has_commission:
-        #     payout += self.commission * self.contracts_landed
-        # return payout
         return NotImplementedError
